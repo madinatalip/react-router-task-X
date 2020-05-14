@@ -6,8 +6,8 @@ const Dummy = () => {
   return (
     <div>
       <Head title="Hello" />
-      <div className="flex items-center justify-center h-screen">
-        <div className="bg-indigo-800 text-white font-bold rounded-lg border shadow-lg p-10">
+      <div className="flex items-center justify-center bg-pink-200 h-screen">
+        <div className="bg-pink-600 text-white font-bold rounded-lg border rounded-full h-20 w-20 flex items-center justify-center shadow-lg p-20">
           This is dummy component
         </div>
       </div>
