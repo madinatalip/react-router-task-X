@@ -7,10 +7,10 @@ const Profile = () => {
   return (
     <div>
       <Head title="Hello" />
-      <div id="title" className="mb-8 text-3xl font-extrabold underline">
+      <div id="title" className="mb-8 text-3xl font-extrabold text-center underline">
         Profile:
       </div>
-      <div id="username" className="my-8 underline">
+      <div id="username" className="my-8 text-center underline">
         {user}
       </div>
       <Link to="/dashboard" className="mx-8">
